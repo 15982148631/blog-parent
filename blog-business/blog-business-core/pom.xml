@@ -21,6 +21,11 @@
             <artifactId>blog-repository-core</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>blog-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
         <!--分页插件-->
         <dependency>
             <groupId>com.github.pagehelper</groupId>

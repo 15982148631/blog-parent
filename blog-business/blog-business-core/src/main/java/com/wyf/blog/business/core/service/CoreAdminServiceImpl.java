@@ -3,6 +3,8 @@ package com.wyf.blog.business.core.service;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.wyf.blog.business.core.service.impl.CoreAdminService;
+import com.wyf.blog.common.exceptions.BusinessException;
+import com.wyf.blog.common.response.ResponseCode;
 import com.wyf.blog.repository.core.domain.CoreAdmin;
 import com.wyf.blog.repository.core.mapper.CoreAdminMapper;
 import org.springframework.stereotype.Service;
@@ -36,7 +38,11 @@ public class CoreAdminServiceImpl implements CoreAdminService {
 
     @Override
     public CoreAdmin get(Long coreAdminId) {
-        return coreAdminMapper.selectByPrimaryKey(coreAdminId);
+        CoreAdmin coreAdmin = coreAdminMapper.selectByPrimaryKey(coreAdminId);
+        if (null == coreAdmin) {
+            throw new BusinessException(ResponseCode.USER_NOT_EXIST);
+        }
+        return coreAdmin;
     }
 
 
