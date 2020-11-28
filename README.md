@@ -1,5 +1,6 @@
 # blog-parent
 博客系统项目
+基于springcloud Alibaba组件实现
 
 ### 1. blog-controller-dashboard
 测试访问：http://localhost:9100/core/admin/get/1
