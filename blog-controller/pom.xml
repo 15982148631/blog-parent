@@ -18,6 +18,8 @@
     <artifactId>blog-controller</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <inceptionYear>2021-Now</inceptionYear>
+    <description>访问处理层</description>
 
     <dependencies>
         <!-- Spring Boot -->

@@ -1,7 +1,7 @@
 package com.wyf.blog.controller.dashboard.core;
 
 import com.github.pagehelper.PageInfo;
-import com.wyf.blog.business.core.service.impl.CoreAdminService;
+import com.wyf.blog.business.core.service.CoreAdminService;
 import com.wyf.blog.common.response.ResponseResult;
 import com.wyf.blog.repository.core.domain.CoreAdmin;
 import org.springframework.validation.BindingResult;

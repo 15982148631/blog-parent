@@ -1,4 +1,4 @@
-package com.wyf.blog.business.core.service.impl;
+package com.wyf.blog.business.core.service;
 
 import com.github.pagehelper.PageInfo;
 import com.wyf.blog.repository.core.domain.CoreAdmin;

@@ -16,5 +16,7 @@
     <artifactId>blog-business</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <inceptionYear>2021-Now</inceptionYear>
+    <description>业务处理层</description>
 
 </project>

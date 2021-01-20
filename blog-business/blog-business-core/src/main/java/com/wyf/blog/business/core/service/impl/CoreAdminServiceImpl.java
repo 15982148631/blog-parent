@@ -1,8 +1,8 @@
-package com.wyf.blog.business.core.service;
+package com.wyf.blog.business.core.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.wyf.blog.business.core.service.impl.CoreAdminService;
+import com.wyf.blog.business.core.service.CoreAdminService;
 import com.wyf.blog.common.exceptions.BusinessException;
 import com.wyf.blog.common.response.ResponseCode;
 import com.wyf.blog.repository.core.domain.CoreAdmin;
